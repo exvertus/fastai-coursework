@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "fastai-coursework"
+version = "0.1.0"
+description = ""
+authors = ["Tom Flanigan <tflanig1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.13"
+fastai = "^2.7.13"
+fastbook = "^0.0.29"
+python-dotenv = "^1.0.0"
+gradio = "^4.11.0"
+
+[tool.poetry.group.dev.dependencies]
+jupyterlab = "^4.0.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
