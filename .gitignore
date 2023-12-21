@@ -162,3 +162,5 @@ cython_debug/
 
 # Don't save any data accumlated during training
 **/data/
+
+.vscode
